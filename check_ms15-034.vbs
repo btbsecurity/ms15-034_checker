@@ -1,5 +1,5 @@
 If WScript.Arguments.Count <> 1 Then 
-	WScript.Echo "usage: cscript ms15-034.vbs <url>" 
+	WScript.Echo "usage: cscript check_ms15-034.vbs <url>" 
 Else
 	Set args = WScript.Arguments 
 	Set web = Nothing 
